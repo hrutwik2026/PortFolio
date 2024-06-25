@@ -93,7 +93,7 @@ function App() {
 
   return (
     <div className="bg-slate-700">
-      <animated.nav style={slideIn} className={`w-full ${addcss} h-14 fixed `}>
+      <animated.nav style={slideIn} className={`w-full ${addcss} h-14 fixed bg-white bg-opacity-25 `}>
         <ul className="flex gap-36 justify-start p-3 text-slate-100 text-lg font-serif font-bold">
           <li className="w-1/4 hover:scale-110 duration-100">
             <img className="w-32" src={logo} alt="Logo" />
